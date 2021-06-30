@@ -1,0 +1,107 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/index/devreg",
+			"style": {
+				"navigationBarTitleText": "寝室门绑定"
+			}
+		},
+		{
+			"path": "pages/index/devctrl",
+			"style": {
+				"navigationBarTitleText": "寝室设置"
+			}
+		},
+		{
+			"path": "pages/index/devinfo",
+			"style": {
+				"navigationBarTitleText": "寝室信息"
+			}
+		},
+		{
+			"path": "pages/index/devhistory",
+			"style": {
+				"navigationBarTitleText": "历史查询状态"
+			}
+		},
+		{
+			"path": "pages/index/devinput",
+			"style": {
+				"navigationBarTitleText": "密码输入"
+			}
+		},
+		{
+			"path": "pages/index/alterpwd",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/index/uchart",
+			"style": {
+				"navigationBarTitleText": "温湿度曲线图"
+			}
+		},
+		{
+			"path": "components/Calendar",
+			"style": {
+				"navigationBarTitleText": "签到模板"
+			}
+		},
+		{
+			"path": "pages/index/ImportCalendar",
+			"style": {
+				"navigationBarTitleText": "签到打卡"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "KE1",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/devreg",
+				"iconPath": "static/admin_off.png",
+				"selectedIconPath": "static/admin_on.png",
+				"text": "注册"
+			},
+			{
+				"pagePath": "pages/index/devinfo",
+				"iconPath": "static/admin_off.png",
+				"selectedIconPath": "static/admin_on.png",
+				"text": "查询"
+			},
+			{
+				"pagePath": "pages/index/devctrl",
+				"iconPath": "static/admin_off.png",
+				"selectedIconPath": "static/admin_on.png",
+				"text": "设置"
+			},
+			{
+				"pagePath": "pages/index/devinput",
+				"iconPath": "static/admin_off.png",
+				"selectedIconPath": "static/admin_on.png",
+				"text": "开锁"
+			}
+		]
+	}
+}
